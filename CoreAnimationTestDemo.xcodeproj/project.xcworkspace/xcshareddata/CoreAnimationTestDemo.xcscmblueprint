@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "05EEF32E6374C04AA20A731B7805CA2DF7F729A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD7CA9349512E320125AD34F69E5FA31ACD73833" : 0,
+    "05EEF32E6374C04AA20A731B7805CA2DF7F729A6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B0F2AF9D-9B13-4FB7-8831-979FFE02FFC3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD7CA9349512E320125AD34F69E5FA31ACD73833" : "",
+    "05EEF32E6374C04AA20A731B7805CA2DF7F729A6" : "CoreAnimationTestDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CoreAnimationTestDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CoreAnimationTestDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fight-ing\/CoreAnimationTestDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "05EEF32E6374C04AA20A731B7805CA2DF7F729A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/fei\/Desktop\/CoreAnimationTestDemo\/CoreAnimationTestDemo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD7CA9349512E320125AD34F69E5FA31ACD73833"
+    }
+  ]
+}

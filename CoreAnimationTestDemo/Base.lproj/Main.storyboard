@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="J3V-y0-Jfl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--初学动画-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoreAnimationTestDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwi-y0-VUW">
+                                <rect key="frame" x="200" y="138" width="200" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="DeS-lr-tJm"/>
+                                    <constraint firstAttribute="width" constant="200" id="FDU-tY-urL"/>
+                                </constraints>
+                                <state key="normal" title="CABasiceAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uy9-gj-muY" kind="push" id="8sV-S8-s3d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ne-Pm-wZA">
+                                <rect key="frame" x="200" y="244" width="200" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="h6t-xr-kAf"/>
+                                    <constraint firstAttribute="height" constant="50" id="rOd-QG-QSG"/>
+                                </constraints>
+                                <state key="normal" title="CAKeyFrameAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0nZ-gm-EQ6" kind="push" id="eOr-E4-XgX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dwi-y0-VUW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="74" id="1Nf-7v-sdb"/>
+                            <constraint firstItem="8Ne-Pm-wZA" firstAttribute="top" secondItem="dwi-y0-VUW" secondAttribute="bottom" constant="56" id="94d-jD-mil"/>
+                            <constraint firstItem="dwi-y0-VUW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hbZ-pi-PNC"/>
+                            <constraint firstItem="8Ne-Pm-wZA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nbZ-69-Svq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="初学动画" id="YmI-qQ-A9I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1230" y="316"/>
+        </scene>
+        <!--CABasicAnimation-->
+        <scene sceneID="kVF-af-dc8">
+            <objects>
+                <viewController storyboardIdentifier="CABsiceAnimationVC" id="uy9-gj-muY" customClass="CABsiceAnimationVC" customModule="CoreAnimationTestDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vCC-oo-ZLe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qr0-hq-dc0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ysh-fD-sMq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CABasicAnimation" id="d2Z-L0-YM3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKy-YW-XRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1931" y="77"/>
+        </scene>
+        <!--CAKeyFrameAnimation-->
+        <scene sceneID="28k-tT-8aH">
+            <objects>
+                <viewController storyboardIdentifier="CAKeyFrameAnimationVC" id="0nZ-gm-EQ6" customClass="CAKeyFrameAnimationVC" customModule="CoreAnimationTestDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CeQ-4f-UwQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="WsX-gF-qEf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CUA-Pc-X8J">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxg-l2-tXM">
+                                <rect key="frame" x="29" y="542" width="105" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1MH-bg-ovo"/>
+                                    <constraint firstAttribute="width" constant="105" id="NSq-VN-iHB"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="暂停">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="开始">
+                                    <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pauseButtonClicked:" destination="0nZ-gm-EQ6" eventType="touchUpInside" id="JCb-s8-0HA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WsX-gF-qEf" firstAttribute="top" secondItem="Mxg-l2-tXM" secondAttribute="bottom" constant="28" id="LXo-6i-ZZ2"/>
+                            <constraint firstItem="Mxg-l2-tXM" firstAttribute="leading" secondItem="CUA-Pc-X8J" secondAttribute="leading" constant="29" id="OjX-ln-yTQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="CAKeyFrameAnimation" id="KJ1-fc-dEN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PBm-SA-Beh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1931" y="759"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hQL-OH-7rc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J3V-y0-Jfl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9lh-6x-kJT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="4pI-vm-hdk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uSL-FC-7sP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="316"/>
+        </scene>
+    </scenes>
+</document>
